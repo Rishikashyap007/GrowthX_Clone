@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #030000; /* Change this to your desired background color */
+}
+
+/* Styles for the news section */
+.news-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
+}
+
+.u-padding1 {
+    width: 100%;
+    max-width: 1080px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    display: block;
+    /* position: static; */
+}
+
+.u-padding2 {
+    width: 100%;
+    max-width: 1080px;
+    background-color:white;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    display: block;
+    position: static;
+}
+
+.news-content-left,
+.news-content-right {
+    text-align: left; /* Align content to left on mobile */
+}
+
+/* Styles for the title and text */
+.learning-cards-v2-title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.is-large {
+    font-size: 32px; /* Adjust as needed */
+    color: white;
+}
+
+.is--grey {
+    color: #777777;
+}
+
+.is--black {
+    color:black;
+}
+
+.is--white {
+    color:white; /* Adjust as needed */
+}
+
+.news-content-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stricked {
+    color: rgb(199, 181, 181);
+    text-decoration: line-through;
+}
+/* .news-section {
+    height: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #2d2d2d;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: grid;
+    overflow: hidden;
+} */
+@media(max-width:768px){
+    .news-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .u-padding1,.u-padding2{
+        width: 100%;
+        /* padding: 1rem; */
+        margin: 0;
+    }
+    .news-content-left {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0;
+    }
+}

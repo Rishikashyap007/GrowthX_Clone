@@ -1,0 +1,66 @@
+.part3-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.thirdpart-DataLed{
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+.thirdpart1{
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.thirdpart2{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+}
+input{
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    background-color: #282727;
+    color: #fff;
+    border-radius: 12px;
+}
+.btn3{
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 12px;
+}
+
+@media (max-width:991px){
+    .thirdpart-DataLed{
+        flex-direction: column;
+        width: 100%;
+    }
+    .thirdpart1{
+        width: 90%;
+    }
+    .thirdpart2{
+        width: 90%;
+        flex-direction: column;
+    }
+    input{
+        width:100%;
+    }
+}

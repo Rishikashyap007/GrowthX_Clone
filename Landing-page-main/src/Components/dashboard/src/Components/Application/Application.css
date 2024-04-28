@@ -1,0 +1,70 @@
+/* .Application{
+    display:flex;
+    flex-direction: column;
+} */
+.Application_about_you i , .Application_Jamming i{
+    color: blue;
+    padding: 1rem;  
+}
+.Application_about_you {
+    width:10%;
+    margin-left: 20%;
+
+}
+.Application_Jamming{
+   
+    width:20%;
+    margin-left: 20%;
+}
+.Application_last_div{
+    display:flex;
+    border:2px solid rgb(36, 35, 35);
+    width:60%;
+    margin: 1rem;
+    padding:1rem;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+}
+.Application_left_part{
+    padding:1rem;
+    margin:3rem;
+    width:40%;
+}
+.Application-btn{
+    padding:1rem;
+    margin:1rem;
+    border-radius: 30px;
+    font-size: large;
+    color: black;
+   
+}
+.Application_left_part i{
+    color: blue;
+}
+
+@media only screen and (max-width:768px){
+    .Application_last_div{
+        flex-direction: column;
+        padding: 0;
+        width:100%;
+        margin-left: 0%;
+    }
+    .Application_right_part img{
+        width:100%;
+        height:100%;
+    }
+    .Application_left_part{
+      width:90%;
+      margin: 0%;
+      /* padding:1rem; */
+    }
+    .Application_about_you{
+        width:100%;
+        margin-left: 0%;
+    }
+    .Application_Jamming{
+        width:100%;
+        margin-left: 0%;
+    }
+}

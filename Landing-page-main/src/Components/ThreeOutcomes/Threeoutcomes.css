@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.threeout{
+    color: rgb(0, 0, 0,0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(254, 254, 254);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:90px;
+    padding:1rem;
+}
+.threeout1{
+    color:rgb(255, 255, 255,0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding:1rem;
+    margin:5px;
+}
+.heading-threeout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.heading-threeout p{
+    font-size: 1.5rem;
+    color: #929292;
+}
+.threeoutcomes_body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 5%;
+}
+.bodypart_threeout{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.threeout-image{
+    width: 100%;
+}
+.threeout-image2{
+    width: 100%;
+    margin-right: 8%;
+}
+.threeout_box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.box-threeout{
+    border: 1px solid rgb(253, 253, 253);
+    background-color: #151414;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 2rem;
+    
+}
+@media (max-width:991px){
+    .bodypart_threeout{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 1rem;
+        gap:2rem;
+    }
+    
+    .threeout1{
+        font-size: 50px;
+    }
+    .threeout-image,.threeout-image2{
+        height: auto;
+        width: 100%;
+        
+    }
+    .bodypart_threeout img{
+        width:70%;
+        height:auto;
+    }
+    
+}
+@media (max-width:675px){
+    .threeout_box{
+        /* padding: 1rem; */
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box-threeout{
+        width:100%;
+    }
+}
